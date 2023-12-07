@@ -1,0 +1,79 @@
+.titulo{
+    
+    font-size: 110px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-shadow: red
+    -1px -2px 0px black, 
+    -1px 2px 0px black,                    
+     1px -2px 0px black,                  
+     1px 1px 0px rgb(0, 0, 0);
+}
+
+
+
+  
+
+ 
+
+.flipper{text-align: center;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+}
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+	/* se quiser uma animação na vertical,
+	troque por rotateX(180deg)
+	*/
+}
+.flipper{text-align: center;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+.flipper{text-align: center;
+	position: relative;
+
+}
+.front, .back{text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.back{text-align: center;
+	transform: rotateY(180deg);
+}
+.front, .back{text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+
+  .resumo{
+    
+    display: inline;
+    text-align: center;
+     color:aliceblue;
+    ;
+ font-size: 20px;
+}
+.TituloResumo{
+    display: inline;
+    color:aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cabesario{
+    text-align: center;
+
+}
+.foto{
+    text-align: left;
+}
+
+
